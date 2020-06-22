@@ -1,0 +1,24 @@
+/*large layoout 1280px */
+
+@media only screen and (min-width:992) and (max-width:1200px){
+   
+
+}
+
+/*md layout 768 */
+
+@media only screen and (min-width:768) and (max-width:991px){
+
+}
+
+/*m0bile layout 320px extra small*/
+
+@media only screen and (max-width:767px){
+
+}
+
+/*wide-mobile layoout 480px small */
+
+@media only screen and (min-width:480) and (max-width:767px){
+
+}
