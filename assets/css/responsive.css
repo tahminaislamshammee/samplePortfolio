@@ -38,19 +38,14 @@
     .home-btn a span::after {
         font-size: 11px;
     }
-    .home-content {
-        margin-top: 100px;
-    }
     .about-area {
         padding: 50px 0;
     }
     .about-img {
         position: unset;
     }
-    .about-list ul li span {
-        width: 100%;
-        display: block;
-        font-size: 14px;
+    .about-img::before {
+        position: unset;
     }
     .title-shadow {
         font-size: 40px;
