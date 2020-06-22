@@ -44,8 +44,11 @@
     .about-img:before {
         content:none;
     }
-    .about-img::before {
-        position: unset;
+    .about-list ul li {
+        width: 100%;
+        display: block;
+        margin-bottom: 7px;
+        font-size: 15px;
     }
     .title-shadow {
         font-size: 40px;
@@ -59,7 +62,6 @@
     .work-menu ul li {
        width: 100%;
     }
-    
     .work-menu.mt-100 {
         margin-top: 25px;
     }
