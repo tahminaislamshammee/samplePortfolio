@@ -740,6 +740,15 @@ footer h1 {
 	background: #333;
 	z-index: 999;
 }
+/*mobile-menu*/
+.mean-container .mean-bar {
+	position: absolute;
+	background:none;
+	 padding: 0;
+	min-height:0;
+	right: 0;
+	top: 0;
+}
 
 
 

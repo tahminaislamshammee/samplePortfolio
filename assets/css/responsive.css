@@ -1,24 +1,88 @@
 /*large layoout 1280px */
 
-@media only screen and (min-width:992) and (max-width:1200px){
-   
 
+@media only screen and (min-width: 992px) and (max-width: 1200px) {
+ 
 }
 
 /*md layout 768 */
 
-@media only screen and (min-width:768) and (max-width:991px){
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+  
+    .about-list ul li {
+        width: 100%;
+        display: block;
+        margin-bottom: 7px;
+    }
 
 }
 
-/*m0bile layout 320px extra small*/
+/* Mobile Layout: 320px. */
 
-@media only screen and (max-width:767px){
+@media only screen and (max-width: 767px) {
+    .home-title h1 {
+        font-size: 25px;
+    }
+    .home-title h2 {
+        font-size: 20px;
+    }
+    .home-title p {
+        font-size: 14px;
+    }
+    .home-btn a {
+        width: 100px;
+    }
+    .home-btn a span::before {
+        font-size: 11px;
+    }
+    .home-btn a span::after {
+        font-size: 11px;
+    }
+    .home-content {
+        margin-top: 100px;
+    }
+    .about-area {
+        padding: 50px 0;
+    }
+    .about-img {
+        position: unset;
+    }
+    .about-list ul li span {
+        width: 100%;
+        display: block;
+        font-size: 14px;
+    }
+    .title-shadow {
+        font-size: 40px;
+    }
+    .title h2 {
+        font-size: 30px;
+    }
+    .mt-100 {
+        margin-top: 25px;
+    }
+    .work-menu ul li {
+       width: 100%;
+    }
+    .mb-30 {
+        margin-bottom: 0;
+    }
+    .work-menu.mt-100 {
+        margin-top: 25px;
+    }
+    footer h1 {
+        font-size: 25px;
+    }
+    footer p {
+        font-size: 14px;
+    }
 
 }
 
-/*wide-mobile layoout 480px small */
 
-@media only screen and (min-width:480) and (max-width:767px){
+/* Wide Mobile Layout: 480px. */
 
+@media only screen and (min-width: 480px) and (max-width: 767px) {
+	
+	
 }

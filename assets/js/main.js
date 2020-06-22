@@ -3,7 +3,7 @@ $(document).ready(function(){
 
   $('#mobile-menu-active').meanmenu({
     
-    meanScreenWidth: "991",
+    meanScreenWidth: "767",
     meanMenuContainer: '.mobile-menu'
 
   });
