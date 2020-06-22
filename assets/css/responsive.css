@@ -41,8 +41,8 @@
     .about-area {
         padding: 50px 0;
     }
-    .about-img {
-        position: unset;
+    .about-img:before {
+        content:none;
     }
     .about-img::before {
         position: unset;
@@ -59,9 +59,7 @@
     .work-menu ul li {
        width: 100%;
     }
-    .mb-30 {
-        margin-bottom: 0;
-    }
+    
     .work-menu.mt-100 {
         margin-top: 25px;
     }
